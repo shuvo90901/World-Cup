@@ -408,6 +408,10 @@ hr {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .flags {
+        padding-left: 80px;
+    }
+
     .player {
         width: 335px;
         height: 388px;
