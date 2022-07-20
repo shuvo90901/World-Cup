@@ -10,7 +10,8 @@ body {
 header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #161616;
+    /* background-color: #161616; */
+    background-color: #6962a7;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 120px;
@@ -32,7 +33,7 @@ header {
 }
 
 .header-blog {
-    color: gray;
+    color: black;
     padding-bottom: 30px;
 }
 
@@ -42,7 +43,7 @@ header {
     font-weight: 700;
     padding: 16px 25px;
     border-radius: 5px;
-    background-color: red;
+    background-color: rgba(162, 55, 55, 0.967);
 }
 
 .fa-solid {
@@ -96,7 +97,7 @@ nav {
     background-color: white;
     text-align: center;
     border-radius: 10px;
-    background-color: #DD0000;
+    background-color: #664444;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
@@ -447,4 +448,50 @@ hr {
         text-align: center;
     }
 
+}
+
+@keyframes sliding {
+    from {
+
+        left: 0;
+        top: 0;
+    }
+
+    20% {
+        top: -605px;
+        left: 600px;
+    }
+
+    40% {
+        top: 0px;
+        left: 1020px;
+    }
+
+    60% {
+        top: -300px;
+        left: -10px;
+    }
+
+    80% {
+        top: -605px;
+        left: 1030px;
+    }
+
+    100% {
+        top: 0;
+        left: -100px;
+    }
+
+    to {
+        left: 1020px;
+        top: 0;
+    }
+}
+
+.fa-futbol {
+    font-size: 70px;
+    color: rgba(0, 0, 0, 0.733);
+    animation: sliding 10s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
+    position: relative;
 }
