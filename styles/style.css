@@ -402,7 +402,8 @@ hr {
         margin-bottom: 10px;
     }
 
-    .players {
+    .players,
+    .flags {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -410,6 +411,11 @@ hr {
     .player {
         width: 335px;
         height: 388px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .flag {
         padding-left: 20px;
         padding-right: 20px;
     }
