@@ -1,0 +1,146 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* header styles start */
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #161616;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 120px;
+    border-radius: 30px;
+}
+
+.header-info {
+    padding-top: 80px;
+    padding-left: 106px;
+    padding-right: 24px;
+    padding-bottom: 80px;
+}
+
+.header-title {
+    color: white;
+    font-size: 60px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.header-blog {
+    color: gray;
+    padding-bottom: 30px;
+}
+
+.header-button {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 16px 25px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.fa-solid {
+    padding-left: 10px;
+}
+
+.header-banner {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header-banner img {
+    height: 550px;
+
+}
+
+/* ---------------------
+header styles end
+----------------------- */
+
+/*-------------------
+ nav bar style
+ -------------------- */
+nav {
+    background-color: #161616;
+    padding: 30px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 15px;
+
+}
+
+.nav-button {
+    text-decoration: none;
+    padding: 15px 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.nav-button-extra {
+    text-decoration: none;
+    padding: 15px 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* nav style end */
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    height: 362px;
+    width: 270px;
+}
+
+.transfer-button {
+    border: 1px solid rgba(22, 22, 22, 1);
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(22, 22, 22, 1);
+    padding-top: 5px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.transfer-blog {
+    font-weight: 700;
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: repeat(4, 0.2fr)
+}
+
+footer {
+    width: 1600px;
+    height: 380px;
+    background-color: #1E1E1E;
+}
