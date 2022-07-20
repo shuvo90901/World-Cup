@@ -351,6 +351,8 @@ hr {
         flex-direction: column;
         align-items: center;
         margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
     }
 
     .header-info {
@@ -392,10 +394,24 @@ hr {
         height: 176px;
         margin-left: 80px;
         margin-right: 80px;
+        margin-bottom: 24px;
     }
 
     .nav-button {
         width: 174px;
         border: 1px solid gray;
     }
+
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player {
+        width: 335px;
+        height: 388px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
