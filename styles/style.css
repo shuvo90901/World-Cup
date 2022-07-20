@@ -346,6 +346,56 @@ hr {
 
     header {
         width: 334px;
-        height: 472px;
+        height: 567px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    .header-info {
+        display: flex;
+        flex-direction: column;
+        padding-left: 37px;
+        padding-right: 37px;
+        padding-top: 22px;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .header-title {
+        font-size: 22px;
+    }
+
+    .header-blog {
+        font-size: 14px;
+    }
+
+    .header-button {
+        width: 160px;
+    }
+
+
+    .header-banner img {
+        width: 233px;
+        height: 245px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    nav {
+        background-color: white;
+        width: 210px;
+        height: 176px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .nav-button {
+        width: 174px;
+        border: 1px solid gray;
     }
 }
