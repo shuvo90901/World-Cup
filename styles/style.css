@@ -282,7 +282,7 @@ hr {
         height: 0;
         grid-column-gap: 22px;
         margin-bottom: 90px;
-        margin-left: -10px;
+        margin-left: 10px;
     }
 
     .nav-button {
