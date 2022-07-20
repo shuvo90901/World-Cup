@@ -146,6 +146,20 @@ nav {
     grid-template-columns: repeat(4, 0.2fr)
 }
 
+.view-all {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tablet-button {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 16px 35px;
+    border-radius: 5px;
+    background-color: red;
+}
+
 /*----------------------------------
  footer style start 
  ----------------------------------*/
@@ -193,7 +207,7 @@ hr {
 /*-----------------------------
 ------------------------------
 -----------------------------
- Foot ball world page is complete 
+ Football world page is complete 
  ----------------------------------
  ---------------------------------*/
 
@@ -228,6 +242,13 @@ hr {
 }
 
 /* upcoming match website is complete */
+/* laptop view */
+@media only screen and (min-width:1024px) {
+    .view-all {
+        display: none;
+    }
+}
+
 /* tablet view */
 @media only screen and (min-width:768px) and (max-width:1024px) {
 
@@ -321,5 +342,10 @@ hr {
 @media only screen and (min-width:300px) and (max-width:767px) {
     body {
         background-color: blue;
+    }
+
+    header {
+        width: 234px;
+        height: 472px;
     }
 }
