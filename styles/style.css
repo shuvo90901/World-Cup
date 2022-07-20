@@ -315,3 +315,11 @@ hr {
         padding-left: 40px;
     }
 }
+
+/* tablet complete */
+/* mobile device */
+@media only screen and (min-width:300px) and (max-width:767px) {
+    body {
+        background-color: blue;
+    }
+}
