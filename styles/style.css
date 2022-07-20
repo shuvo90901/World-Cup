@@ -232,10 +232,10 @@ hr {
 @media only screen and (min-width:768px) and (max-width:1024px) {
 
     header {
-        width: 100%;
+        width: 90%;
         margin-left: 50px;
         margin-top: 50px;
-        margin-right: 50px;
+        margin-right: 100px;
     }
 
     .header-info {
@@ -265,6 +265,7 @@ hr {
 
     .header-banner img {
         height: 300px;
+        width: auto;
     }
 
     .container {
