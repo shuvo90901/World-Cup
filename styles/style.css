@@ -292,6 +292,10 @@ hr {
         width: auto;
     }
 
+    .fa-futbol {
+        display: none;
+    }
+
     .container {
         display: grid;
     }
@@ -383,6 +387,10 @@ hr {
     .header-banner img {
         width: 233px;
         height: 245px;
+    }
+
+    .fa-futbol {
+        display: none;
     }
 
     .container {
