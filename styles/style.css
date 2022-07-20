@@ -414,4 +414,25 @@ hr {
         padding-right: 20px;
     }
 
+    .view-all {
+        display: none;
+    }
+
+    footer {
+        width: 375px;
+        height: 400px;
+    }
+
+    footer h2 {
+        padding-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .footer-text {
+        display: block;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
 }
