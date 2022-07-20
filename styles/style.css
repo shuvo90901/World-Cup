@@ -282,7 +282,7 @@ hr {
         height: 0;
         grid-column-gap: 22px;
         margin-bottom: 90px;
-        margin-left: -20px;
+        margin-left: -10px;
     }
 
     .nav-button {
@@ -297,7 +297,8 @@ hr {
         border: 1px solid gray;
     }
 
-    .players {
+    .players,
+    .flags {
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 20px;
         grid-row-gap: 20px;
@@ -308,5 +309,9 @@ hr {
     .player {
         width: 357px;
         height: 414px;
+    }
+
+    .flags {
+        padding-left: 40px;
     }
 }
