@@ -87,6 +87,7 @@ nav {
     margin-bottom: 20px;
     text-align: center;
     border-radius: 10px;
+    color: #161616;
 }
 
 .nav-button-extra {
@@ -95,6 +96,9 @@ nav {
     background-color: white;
     text-align: center;
     border-radius: 10px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
 /* nav style end */
@@ -108,6 +112,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 
 .player {
@@ -115,6 +120,8 @@ nav {
     flex-direction: column;
     height: 362px;
     width: 270px;
+    box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.489);
+    border-radius: 10px;
 }
 
 .transfer-button {
@@ -139,8 +146,83 @@ nav {
     grid-template-columns: repeat(4, 0.2fr)
 }
 
+/*----------------------------------
+ footer style start 
+ ----------------------------------*/
 footer {
-    width: 1600px;
+    width: 100%;
     height: 380px;
     background-color: #1E1E1E;
+    margin-top: 80px;
+}
+
+footer h2 {
+    padding-top: 130px;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+hr {
+    color: #FFFFFF;
+    width: 80%;
+}
+
+.footer-text {
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.footer-text p {
+    padding-left: 30px;
+    color: #b9b9b9;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px
+}
+
+.social-button {
+    color: gray;
+    width: 40px;
+}
+
+/*-----------------------------
+------------------------------
+-----------------------------
+ Foot ball world page is complete 
+ ----------------------------------
+ ---------------------------------*/
+
+/*-----------------------------------------
+ -------------------------------------
+  Upcoming match page is starting --------------------
+  -------------------------------------*/
+.flags {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.flag {
+    text-align: center;
+    box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.489);
+    border-radius: 10px;
+    height: 242px;
+    width: 280px;
+
+}
+
+.flag-banner {
+    display: flex;
+
+}
+
+.flag-banner h3 {
+    padding-left: 20px;
+    padding-right: 20px;
 }
