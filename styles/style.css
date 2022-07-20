@@ -248,6 +248,10 @@ hr {
     .view-all {
         display: none;
     }
+
+    .header-banner {
+        margin-bottom: -70px;
+    }
 }
 
 /* tablet view */
